@@ -22,7 +22,9 @@ const Header = () => {
         <ul>
           
           <li><Link to="/productlist">Product</Link></li>
-          <li><Link to="/cartpage"><AiOutlineShoppingCart/><span className='card'>{cart.length}</span></Link></li>
+          <li><Link to="/cartpage" className='cart'><AiOutlineShoppingCart/>
+          <span className='card'>{cart.length}</span>
+          </Link></li>
         </ul>
       </div>
     </nav>

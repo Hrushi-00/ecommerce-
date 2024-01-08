@@ -5,7 +5,8 @@
 }
 @media screen and (max-width:912px) {
     .product-container{
-        margin-left: 200px;
+        /* margin-left: 120px; */
+        margin: auto;
     }
 }
 

@@ -39,11 +39,15 @@ a {
         font-size: 18px;
     }
 }
+
+.cart{
+    position: relative;
+}
 .card{
     font-weight:bold;
-    position: relative;
-    top: -10px;
-    left: -19px;
+    position: absolute;
+    bottom: -8px;
+    left: -3px;
     font-size: 15px;
     
  }
