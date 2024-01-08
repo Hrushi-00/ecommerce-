@@ -62,7 +62,7 @@ const ProductList = ({ data }) => {
   ) : (
     <div className="product-container">
       {products.map((item) => (
-        <div key={item.id} className="product normal">
+        <div key={item.id} className="product-normal">
           <div className="product-header">
             <img src={item.image} alt={item.title} />
           </div>
