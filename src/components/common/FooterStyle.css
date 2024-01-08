@@ -1,11 +1,17 @@
 .footer{
     width: 100%;
     padding: 5rem 0;
-    /* background-color:black; */
+    
     margin-top: 20px;
 }
+
+@media screen and (max-width:480px){
+    .footer{
+    width: 450px;
+    }
+}
 .footer-container{
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
