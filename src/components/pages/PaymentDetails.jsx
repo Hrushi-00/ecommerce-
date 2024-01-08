@@ -11,6 +11,8 @@ const CheckoutForm = () => {
       <form>
       <label for="name">Name:</label>
         <input type="text" id="name" name="name" required/>
+        <label for="name">Address:</label>
+        <input type="text" id="name" name="address" required/>
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required/>
@@ -21,7 +23,9 @@ const CheckoutForm = () => {
             <option value="female">Female</option>
             <option value="other">Other</option>
         </select>
-
+        <label for="Payment">Payment details:</label>
+        <input type="text" id="number" name="Card" required/>
+        
         <Link to="/paymentsucess" type="button" className="payment-btn">
           Payment
         </Link>
